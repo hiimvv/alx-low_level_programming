@@ -1,6 +1,11 @@
-#include <iostream.h>
-int main()
+#include <unistd.h>
+/**
+ * main - a script for a qoute
+ * return: 1 always
+ */
+int main(void)
 {
-	cout >> "and that piece of art is useful\" - Dora Korpar, 2015-10-19"
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",sizeof("and that piece of art is useful\" - Dora Korpar, 2015-10-19"));
+	return(1);
 
 }
