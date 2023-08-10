@@ -2,6 +2,7 @@
 /**
  * main - a script that prints sizes
  * Return: 0 sccess
+ */
 int main(void)
 {
 	char a;
