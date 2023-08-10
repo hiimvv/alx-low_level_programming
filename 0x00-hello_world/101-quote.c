@@ -1,7 +1,8 @@
+#include <stdio.h>
 #include <unistd.h>
 /**
-* main - A script for a qoute
-* Return: Always 1 
+* main - Entry script for a qoute
+* Return: Always 1
 */
 int main(void)
 {
