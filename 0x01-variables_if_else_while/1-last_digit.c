@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
-/* main - prints an input's last digit 
+/**
+ * main - A program that prints an input's last digit
  * Return: Always 1
  */
 int main(void)
