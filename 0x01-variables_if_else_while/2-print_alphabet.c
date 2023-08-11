@@ -5,10 +5,11 @@
  * Return: Alaways 0
  */
 int main(void)
+
 {
-	char a;
-	for (a = 'a' ; a <= 'z' ; a++)
-	putchar(a);
-	putchar("\n");
+	char d;
+	for (d = 'a' ; d <= 'z' ; d++)
+	putchar(d);
+	putchar('\n');
 	return (0);
 }
