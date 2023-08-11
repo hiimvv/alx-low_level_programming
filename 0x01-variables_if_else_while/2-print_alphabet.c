@@ -6,4 +6,10 @@
 int main(void)
 {
 	char alph;
-	for (alph = "a" ;alph <= "z";alph++)
+:x
+
+:x
+	putchar(alpha);
+	putchar("\n");
+	return (0);
+}
