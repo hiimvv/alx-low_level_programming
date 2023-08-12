@@ -6,7 +6,7 @@
 int main(void)
 {
 	char alx[26] = "abcdefghijklmnopqrstuvwxyz";
-        int i;
+	int i;
 	for (i = 0; i < 26 ; i++)
 	{
 		if (i != 4 && i != 16)
