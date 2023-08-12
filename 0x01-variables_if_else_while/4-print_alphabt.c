@@ -6,15 +6,15 @@
 
 int main(void)
 {
-        char alx[26] = "abcdefghijklmnopqrstuvwxyz";
+	char alx[26] = "abcdefghijklmnopqrstuvwxyz";
         int i;
 
-        for (i = 0; i < 52 ; i++)
+        for (i = 0; i < 26 ; i++)
         {
-		if (i != 4 && i != 16)
-		{
-                putchar(alx[i]);
-		}
+	if (i != 4 && i != 16)
+	{
+	putchar(alx[i]);
+	}
         }
         putchar('\n');
         return (0);
