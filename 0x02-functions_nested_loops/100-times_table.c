@@ -2,17 +2,17 @@
 
 /**
  * print_times_table - Prints the times table of the input between 0 to 15
- * @i: The value of the times table to be printed.
+ * @n: The value of the times table to be printed.
  * Return: the timetable value of the input
  */
 
-void print_times_table(int i)
+void print_times_table(int n)
 {
-	int n, multi, product;
+	int in, multi, product;
 
-	if (i >= 0 && i <= 15)
+	if (n >= 0 && n <= 15)
 	{
-		for (n = 0; n <= i; n++)
+		for (in = 0; in <= n; in++)
 		{
 			_putchar('0');
 
@@ -21,7 +21,7 @@ void print_times_table(int i)
 				_putchar(',');
 				_putchar(' ');
 
-				product = n * multi;
+				product = in * multi;
 
 				if (product <= 99)
 					_putchar(' ');
