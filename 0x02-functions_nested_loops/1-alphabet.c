@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - A program that prints the alphabetic letters
+ * print_alphabet - A program that prints the alphabetic letters
  * Return: Always lettters .
  */
 
