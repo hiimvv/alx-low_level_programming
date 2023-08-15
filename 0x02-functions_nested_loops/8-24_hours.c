@@ -1,4 +1,4 @@
-#iclude "main.h"
+#include "main.h"
 /**
  * jack_bauer: A function that prints every second of a somone's speech
  * Return: Always 0
