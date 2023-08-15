@@ -1,4 +1,5 @@
-#include "main"
+#include "main.h"
+
 /**
  * print_times_table - Prints the times table of the input between 0 to 15
  * @i: The value of the times table to be printed.
