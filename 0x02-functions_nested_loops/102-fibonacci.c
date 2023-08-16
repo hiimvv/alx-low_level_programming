@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdint.h>
 /**
  * main - A program that prints the first 50 fibbonaci sequenec numbers.
  *
@@ -16,7 +16,7 @@ int main(void)
 	for (i = 3; i <= n; ++i)
 	{
 
-		printf("%d, ", nextTerm);
+		printf("%lld, ", nextTerm);
 		t1 = t2;
 		t2 = nextTerm;
 		nextTerm = t1 + t2;
