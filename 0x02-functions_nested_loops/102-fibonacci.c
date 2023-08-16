@@ -10,10 +10,10 @@ int main(void)
 {
 	int i;
 	int t1 = 0, t2 = 1;
-	int nextTerm = t1 + t2;
+	long nextTerm = t1 + t2;
 	int n = 50;
 
-	for (i = 3; i <= n; ++i)
+	for (i = 3; i <= n; i++)
 	{
 		printf("%d, ", nextTerm);
 		t1 = t2;
