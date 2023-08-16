@@ -14,6 +14,7 @@ int main(void)
 	int n = 50;
 
 	printf("%d, %d, ", t1, t2);
+	printf("%d, %d, ", t1, t2);
 	for (i = 3; i <= n; ++i)
 	{
 		printf("%d, ", nextTerm);
