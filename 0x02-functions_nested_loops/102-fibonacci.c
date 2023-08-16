@@ -8,15 +8,15 @@
 
 int main(void)
 {
-	unsigned long long i;
-	unsigned long long t1 = 0, t2 = 1;
-	unsigned long long nextTerm = t1 + t2;
+	unsigned long i;
+	unsigned long t1 = 0, t2 = 1;
+	unsigned long nextTerm = t1 + t2;
        	int n = 50;
 
 	for (i = 3; i <= n; ++i)
 	{
 
-		printf("%lld, ", nextTerm);
+		printf("%ld, ", nextTerm);
 		t1 = t2;
 		t2 = nextTerm;
 		nextTerm = t1 + t2;
