@@ -1,25 +1,33 @@
 #include <stdio.h>
-#include <stdint.h>
 /**
- * main - A program that prints the first 50 fibbonaci sequenec numbers.
- *
- * Return: Always 0
+ * main - Fibonaci sequence that prints 50 seqs
+ * Description: Print the first 50 fibonacci numbers, starting with 1 and 2.
+ * Numbers must be coma and space separated.
+ * Return: 0
  */
-
 int main(void)
 {
-	long int i;
-	long int t1 = 0, t2 = 1;
-	long int nextTerm = t1 + t2;
-       	long int n = 50;
+	int c = 3;
+	long int first = 1, second = 2;
+	long int next = first + second;
 
-	for (i = 3; i <= n; ++i)
+	printf("%lu, ", first);
+	printf("%lu, ", second);
+	while (c <= 50)
 	{
-
-		printf("%ld, ", nextTerm);
-		t1 = t2;
-		t2 = nextTerm;
-		nextTerm = t1 + t2;
+		if (c == 50)
+		{
+			printf("%lu \n", next);
+		}
+		else
+		{
+			printf("%lu, ", next);
+		}
+		first = second;
+		second = next;
+		next = first + second;
+		c++;
 	}
-return (0);
+	return (0);
 }
+
