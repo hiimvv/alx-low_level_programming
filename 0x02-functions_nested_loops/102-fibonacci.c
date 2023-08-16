@@ -11,7 +11,7 @@ int main(void)
 	unsigned long i;
 	unsigned long t1 = 0, t2 = 1;
 	unsigned long nextTerm = t1 + t2;
-       	int n = 50;
+       	unsigned long n = 50;
 
 	for (i = 3; i <= n; ++i)
 	{
