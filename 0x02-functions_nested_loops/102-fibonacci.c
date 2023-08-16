@@ -14,7 +14,11 @@ int main(void)
 	unsigned int n = 50;
 
 	for (i = 3; i <= n; ++i)
-	{
+	{ if (i < 0) {
+			     i * -1;
+			     continue;
+		     }
+
 		printf("%d, ", nextTerm);
 		t1 = t2;
 		t2 = nextTerm;
