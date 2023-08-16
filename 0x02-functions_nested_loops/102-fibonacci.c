@@ -13,7 +13,7 @@ int main(void)
 	unsigned int nextTerm = t1 + t2;
 	unsigned int n = 50;
 
-	for (i = 3; i <= n; i++)
+	for (i = 3; i <= n; ++i)
 	{
 		printf("%d, ", nextTerm);
 		t1 = t2;
