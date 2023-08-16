@@ -8,16 +8,13 @@
 
 int main(void)
 {
-	unsigned int i;
-	unsigned int t1 = 0, t2 = 1;
+	int i;
+	int t1 = 0, t2 = 1;
 	unsigned int nextTerm = t1 + t2;
-	unsigned int n = 50;
+       	int n = 50;
 
 	for (i = 3; i <= n; ++i)
-	{ if (i < 0) {
-			     i * -1;
-			     continue;
-		     }
+	{
 
 		printf("%d, ", nextTerm);
 		t1 = t2;
