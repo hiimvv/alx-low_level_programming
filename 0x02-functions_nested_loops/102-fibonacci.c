@@ -8,10 +8,10 @@
 
 int main(void)
 {
-	unsigned long i;
-	unsigned long t1 = 0, t2 = 1;
-	unsigned long nextTerm = t1 + t2;
-       	unsigned long n = 50;
+	long int i;
+	long int t1 = 0, t2 = 1;
+	long int nextTerm = t1 + t2;
+       	long int n = 50;
 
 	for (i = 3; i <= n; ++i)
 	{
