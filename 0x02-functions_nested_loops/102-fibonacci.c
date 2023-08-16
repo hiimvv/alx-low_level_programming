@@ -8,9 +8,9 @@
 
 int main(void)
 {
-	int i;
-	int t1 = 0, t2 = 1;
-	unsigned int nextTerm = t1 + t2;
+	unsigned long long i;
+	unsigned long long t1 = 0, t2 = 1;
+	unsigned long long nextTerm = t1 + t2;
        	int n = 50;
 
 	for (i = 3; i <= n; ++i)
